@@ -12007,6 +12007,40 @@ a.icon:hover {
   box-shadow: 0 0 0 2px rgba(24, 23, 23, 0.5);
 }
 
+.btn-linkedin {
+  color: #fff;
+  background-color: #0076b7;
+  border-color: #0076b7;
+}
+
+.btn-linkedin:hover {
+  color: #fff;
+  background-color: #0076b7;
+  border-color: #0076b7;
+}
+
+.btn-linkedin:focus, .btn-linkedin.focus {
+  box-shadow: 0 0 0 2px rgba(0, 118, 183, 0.5);
+}
+
+.btn-linkedin.disabled, .btn-linkedin:disabled {
+  color: #fff;
+  background-color: #0076b7;
+  border-color: #0076b7;
+}
+
+.btn-linkedin:not(:disabled):not(.disabled):active, .btn-linkedin:not(:disabled):not(.disabled).active,
+.show > .btn-linkedin.dropdown-toggle {
+  color: #fff;
+  background-color: #0076b7;
+  border-color: #0076b7;
+}
+
+.btn-linkedin:not(:disabled):not(.disabled):active:focus, .btn-linkedin:not(:disabled):not(.disabled).active:focus,
+.show > .btn-linkedin.dropdown-toggle:focus {
+  box-shadow: 0 0 0 2px rgba(0, 118, 183, 0.5);
+}
+
 .btn-instagram {
   color: #fff;
   background-color: #e4405f;

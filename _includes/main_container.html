@@ -1,8 +1,20 @@
 <div class="col-lg-8 col-md-6">
-  {% include competences.html %}
   <div class="row">
     <div class="col-12">
-      {% include parcours.html %}
+      <div class="tab-content">
+        <div class="tab-pane active show fade" id="parcours" role="tabpanel" aria-labelledby="parcours-tab">
+          {% include parcours.html %}
+        </div>
+        <div class="tab-pane fade" id="competences" role="tabpanel" aria-labelledby="competences-tab">
+          {% include competences.html %}
+        </div>
+        <div class="tab-pane fade" id="formations" role="tabpanel" aria-labelledby="formations-tab">
+          {% include formations.html %}
+        </div>
+        <div class="tab-pane fade" id="projets" role="tabpanel" aria-labelledby="projets-tab">
+          {% include projets.html %}
+        </div>
+      </div>
     </div>
   </div>
 </div>
